@@ -18,9 +18,9 @@ try:
         
     ##checks if the input number is odd or even
     if num  % 2 == 0: 
-        print(f"{name}: {num} is an even number")
+        print(f"{num} is an even number")
     else: 
-        print(f"{name}: {num} is an odd number")          
+        print(f"{num} is an odd number")          
 except:
     print(f"{name}: {other} is not an integer")
 
