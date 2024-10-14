@@ -1,5 +1,5 @@
 name = input("What is your name? ")
-other = input("Enter a number to find out if it is prime: ")
+other = input("Enter a number to find out if it is prime and whether it is odd or even: ")
 
 try:
     num = int(other)
