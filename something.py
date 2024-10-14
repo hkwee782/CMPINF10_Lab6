@@ -15,6 +15,12 @@ try:
         print(f"{name}: {num} is not a prime number")    
     else:
         print(f"{name}: {num} is a prime number")          
+        
+    ##checks if the input number is odd or even
+    if num  % 2 == 0: 
+        print(f"{name}: {num} is an even number")
+    else: 
+        print(f"{name}: {num} is an odd number")          
 except:
     print(f"{name}: {other} is not an integer")
 
